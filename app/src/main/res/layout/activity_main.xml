@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5783bf">
+    <!-- شمارنده -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ببینم تا چندتا حوصلت میاد حدس بزنی "
+        android:background="@drawable/txt_style"
+        android:layout_margin="20dp"/>
+    <TextView
+        android:id="@+id/txtCounter"
+        android:text="1 / 1000"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/txt_style"
+        android:gravity="center"/>
+
+    <!-- اسم حدسی -->
+    <TextView
+        android:id="@+id/txtGuess"
+        android:text="_ _ _"
+        android:textSize="32sp"
+        android:layout_marginBottom="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/txt_style"
+        android:layout_gravity="center" />
+
+    <!-- دکمه‌های حروف -->
+    <GridLayout
+        android:id="@+id/letterGrid"
+        android:columnCount="4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

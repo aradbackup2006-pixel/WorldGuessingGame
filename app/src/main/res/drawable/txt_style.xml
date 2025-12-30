@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- رنگ پس‌زمینه -->
+    <solid android:color="#efe2cf"/>
+
+    <!-- گوشه‌های گرد -->
+    <corners android:radius="14dp"/>
+
+    <!-- خط دور -->
+    <stroke
+        android:width="2dp"
+        android:color="#333333"/>
+
+    <!-- فاصله داخلی -->
+    <padding
+        android:left="12dp"
+        android:top="8dp"
+        android:right="12dp"
+        android:bottom="8dp"/>
+</shape>
